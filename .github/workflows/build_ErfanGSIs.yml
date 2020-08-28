@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ip3783755892.mobgslb.tbcache.com/Firmware/Flyme/note9/8.1.5.0/cn/20200728024015/e7bf9f80/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=55a638dfcf03034dff788a9b6f68575fde53bbc0b863cc29&ali_redirect_ex_tmining_ts=1598089969&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_URL: https://ip3800533108.mobgslb.tbcache.com/Firmware/Flyme/note9/8.1.5.0/cn/20200728024015/e7bf9f80/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=b49cb4e4e9ab1a532471a32000d680494ccfdf5ca004bbdb&ali_redirect_ex_tmining_ts=1598622561&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
   ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer wet final/GSI.zip
 
          
             
